@@ -61,7 +61,7 @@ fn main() {
                     eprintln!("Error reading passwords from file: {}", err);
                     Vec::new()
                 });
-                let search = prompt("Search : ");
+                let search = prompt("Search(Enter Service Name) : ");
                 for item in &services {
                     if item.service.as_str() == search.as_str() {
                         println!(
