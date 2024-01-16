@@ -1,4 +1,3 @@
-```markdown
 # Password Vault in Rust
 
 
@@ -24,7 +23,7 @@ This Rust-based Password Vault is a secure and user-friendly command-line applic
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/password-vault.git
+   git clone https://github.com/prakhar0711/password-vault.git
    ```
 
 2. Navigate to the project directory:
@@ -37,6 +36,13 @@ This Rust-based Password Vault is a secure and user-friendly command-line applic
    cargo run
    ```
 
+### Simplify
+
+Navigate to :
+
+   ```bash
+   "password-vault/target/release" and run "password-vault.exe" file.
+   ```
 ## Dependencies
 
 - [Serde](https://github.com/serde-rs/serde): Serialization/deserialization library for Rust.
@@ -46,9 +52,4 @@ This Rust-based Password Vault is a secure and user-friendly command-line applic
 
 Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or create a pull request.
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
-
-Replace `vault_image.png` with the actual image file for your project if you have one. Additionally, ensure that you have a `LICENSE` file in your project directory with the appropriate licensing information.
